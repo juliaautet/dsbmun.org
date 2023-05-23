@@ -382,6 +382,18 @@ strong {
 
 
 /*---------------------------------------
+  TEXT 404      
+-----------------------------------------*/
+.text-404 {
+  font-size: var(--h3-font-size);
+  vertical-align: middle;
+  margin-top: 24px;
+  padding: 40px;
+
+}
+
+
+/*---------------------------------------
   AVATAR IMAGE - TESTIMONIAL, AUTHOR               
 -----------------------------------------*/
 .avatar-image {
