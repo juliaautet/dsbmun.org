@@ -468,6 +468,35 @@ c {
   TABLE            
 -----------------------------------------*/
 
+table {
+  font-family: 'Inter';
+  border-spacing: 50x;
+  width: 63%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 2px solid #478fa8; 
+  text-align: left;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+tr:nth-child() {
+  background-color: #dddddd;
+}
+
+.time {
+    width: 25%;
+    color: #478fa8;
+}
+
+.time:hover {
+    background-color: #478fa8;
+    color: #ffffff;
+    border: 2px solid #478fa8;
+}
 
 
 /*---------------------------------------
@@ -1421,6 +1450,8 @@ blockquote::before {
 .site-footer {
   background-color: var(--site-footer-bg-color);
   padding-top: 50px;
+  position:relative;
+  bottom:0;
 }
 
 .site-footer-bottom {
