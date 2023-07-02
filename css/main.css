@@ -249,6 +249,8 @@ c {
 }
 
 
+
+
 .bannerimagetemplate {
   width: 100%;
   background-image: url("../pictures/stage1.jpg");
@@ -461,6 +463,11 @@ c {
   border-color: transparent;
   color: var(--white-color);
 }
+
+/*---------------------------------------
+  TABLE            
+-----------------------------------------*/
+
 
 
 /*---------------------------------------
@@ -676,6 +683,19 @@ c {
   margin-right: 15px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
 
 /*---------------------------------------
   HERO & HERO SLIDE         
@@ -804,6 +824,7 @@ c {
   width: 350px;
   height: 400px;
   object-fit: cover;
+  align-items: center;
 }
 
 .custom-text-block {
@@ -1423,7 +1444,7 @@ blockquote::before {
 }
 
 .copyright-text {
-  color: var(--section-bg-color);
+  color: #e9eaeb;
   font-size: var(--copyright-font-size);
   margin-right: 20px;
 }
