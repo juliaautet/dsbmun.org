@@ -229,12 +229,12 @@ button {
 }
 
 a {
-  color: var(--p-color);
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 b,
@@ -1072,8 +1072,8 @@ blockquote::before {
 }
 
 .tags-block-link:hover {
-  border-color: var(--dark-color);
-  color: var(--dark-color);
+  border-color: var(--white-color);
+  color: var(--white-color);
 }
 
 .cta-section {
