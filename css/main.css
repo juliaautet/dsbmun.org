@@ -293,6 +293,14 @@ c {
   position: relative;
 }
 
+.extra_space1 {
+  height: 20px;
+}
+
+.extra_space {
+  height: 30px;
+}
+
 
 /*---------------------------------------
   CUSTOM BLOCK               
