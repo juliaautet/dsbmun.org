@@ -938,10 +938,10 @@ tr:nth-child() {
 
 
 /*---------------------------------------
-  DONATE              
+  APPLY            
 -----------------------------------------*/
 .donate-section {
-  background-image: url('../images/people/IMG_0732.JPG');
+  background-image: url('../images/photos_dsbmun_1/IMG_0732.JPG');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1730,7 +1730,10 @@ blockquote::before {
   }
 
   .custom-text-block {
-    padding: 20px 0 0 0;
+    vertical-align:top;
+    width: 760;
+    height: 509,99;
+    margin: 0;
   }
 
   .custom-text-box,
