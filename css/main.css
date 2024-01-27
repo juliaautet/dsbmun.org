@@ -802,8 +802,8 @@ tr:nth-child() {
 .featured-block {
   text-align: center;
   transition: all 0.5s ease;
-  min-height: 256px;
-  padding: 15px;
+  min-height: 90px;
+  padding: 30px;
 }
 
 .featured-block:hover {
@@ -820,7 +820,7 @@ tr:nth-child() {
   display: block;
   margin: auto;
   transition: all 0.5s;
-  min-height: 200px;
+  min-height: 00px;
   transform: scale(0.6);
 }
 
